@@ -6,7 +6,14 @@
 
 body {
     background-image: url('./itsnow.jpeg');
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-attachment: fixed;
+    background-color: #fff;
+    -webkit-background-size: calc(100vw) calc(100vh);
+    -moz-background-size: calc(100vw) calc(100vh);
+    -o-background-size: calc(100vw) calc(100vh);
+    background-size: calc(100vw) calc(100vh);
     background-position:center center;
     display: flex;
     flex-direction: column;
