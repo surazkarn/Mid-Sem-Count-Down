@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./studying-homework-student-1296x728-header.jpg');
+    background-size: cover;
+    background-position:center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Apple Chancery', cursive;
+    margin: 0;
+}
+
+h1 {
+    font-weight: normal;
+    color: rgb(183, 0, 255);
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.countdown-container {
+    display: flex;
+    color: rgb(68, 0, 255);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+}
