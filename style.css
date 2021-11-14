@@ -8,6 +8,7 @@ body {
     background-image: url('./itsnow.jpeg');
     background-size: cover;
     background-position:center center;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
