@@ -3,7 +3,7 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const EndSem = "7th March 2022";
+const EndSem = "7th Mar 2022";
 
 function countdown() {
     const EndSemDate = new Date(EndSem);
